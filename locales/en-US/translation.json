@@ -31,6 +31,7 @@
     "websiteplaceholder": "http://www.example.com/",
     "social": "Social Network",
     "socialplaceholder": "@OpenStreetMap or https://www.facebook.com/OpenStreetMap",
+    "invalid-details": "Name and categories must not be empty!",
     "done": "Done!"
   },
   "step3": {
