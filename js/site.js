@@ -113,6 +113,11 @@ $(window).on('hashchange', function() {
 });
 
 $("#collect-data-done").click(function() {
+    if ($('#name').val() == "" || $('#category').val() == "") {
+        $('#invalid-details').show();
+        return;
+    } 
+    $('#invalid-details').hide();
     location.hash = '#done';
 
     var note_body = "onosm.org submitted note from a business:\n" +
